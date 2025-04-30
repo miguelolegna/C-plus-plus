@@ -1,4 +1,5 @@
 O que faz cada pasta?
+
 Lexer (lexer.hpp e lexer.cpp): Responsável por dividir o código de entrada em tokens. Aqui, cada palavra-chave e símbolo será mapeado para tokens que a máquina de interpretação (ou compilação) pode entender.
 
 Parser (parser.hpp e parser.cpp): Recebe os tokens do lexer e os organiza em uma estrutura hierárquica (uma árvore de sintaxe abstrata, ou AST), que representa a estrutura do programa.
